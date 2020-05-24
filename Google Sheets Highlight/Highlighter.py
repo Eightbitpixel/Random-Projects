@@ -11,7 +11,7 @@ Comboz = [
 current = set()
 
 def execute():
-    os.system("aplay Begin.wav&")
+    os.system("aplay On.wav&")
     pyauto.moveTo(x=709, y=209)
     pyauto.click()
     pyauto.moveTo(x=807, y=308)
